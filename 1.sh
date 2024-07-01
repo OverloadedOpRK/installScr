@@ -1,3 +1,6 @@
+#NOW IT WORKS
+
+
 sudo rm -rf /etc/apt/sources.list && 
 sudo bash -c 'cat <<EOF > /etc/apt/sources.list
 deb http://deb.debian.org/debian/ bullseye main
