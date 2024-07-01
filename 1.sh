@@ -12,8 +12,8 @@ EOF' &&
 sudo apt update && 
 sudo apt upgrade -y && 
 sudo apt install git htop tmux cpulimit build-essential tmux -y && 
-sudo DEBIAN_FRONTEND=noninteractive apt-get remove -y linux-image-6.1.0-21-cloud-amd64 linux-image-cloud-amd64 && 
-sudo apt-get -y install linux-image-5.10.0-28-amd64 linux-headers-5.10.0-28-amd64 && 
+sudo DEBIAN_FRONTEND=noninteractive apt-get remove -y linux-base linux-image-6.1.0-21-cloud-amd64 linux-image-cloud-amd64 && 
+sudo apt-get -y install linux-image-5.10.0-28-amd64 && 
 cd && 
 rm ./1.sh && 
 #wget 
