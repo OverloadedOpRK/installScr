@@ -1,16 +1,11 @@
 #NOW IT WORKS
 
 
-sudo rm -rf /etc/apt/sources.list && 
+#sudo rm -rf /etc/apt/sources.list && 
 sudo bash -c 'cat <<EOF > /etc/apt/sources.list
-deb http://deb.debian.org/debian/ bullseye main
-deb-src http://deb.debian.org/debian/ bullseye main
 
-deb http://deb.debian.org/debian-security bullseye-security main
-deb-src http://deb.debian.org/debian-security bullseye-security main
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free
 
-deb http://deb.debian.org/debian/ bullseye-updates main
-deb-src http://deb.debian.org/debian/ bullseye-updates main
 EOF' && 
 sudo DEBIAN_FRONTEND=noninteractive apt update && 
 sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y && 
