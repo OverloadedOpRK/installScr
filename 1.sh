@@ -1,4 +1,4 @@
-sudo DEBIAN_FRONTEND=noninteractive apt update && sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y && sudo DEBIAN_FRONTEND=noninteractive apt install gnupg && 
+sudo DEBIAN_FRONTEND=noninteractive apt update && sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y && sudo DEBIAN_FRONTEND=noninteractive apt install gnupg -y && 
 
 sudo rm -rf /etc/apt/sources.list && 
 sudo bash -c 'cat <<EOF > /etc/apt/sources.list
