@@ -58,7 +58,9 @@ sudo DEBIAN_FRONTEND=noninteractive apt update &&
 sudo DEBIAN_FRONTEND=noninteractive apt upgrade -y && 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install zip p7zip-full unzip git htop tmux cpulimit build-essential tmux -y && 
 sudo DEBIAN_FRONTEND=noninteractive apt-get remove -y linux-base linux-image-6.1.0-21-cloud-amd64 linux-image-6.1.0-22-cloud-amd64 linux-image-cloud-amd64 && 
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y linux-base linux-headers-5.15.0-107 linux-headers-5.15.0-107-generic linux-headers-5.15.0-113 linux-headers-5.15.0-113-generic linux-headers-generic linux-headers-virtual linux-image-5.15.0-107-generic linux-image-5.15.0-113-generic linux-image-virtual linux-modules-5.15.0-107-generic linux-modules-5.15.0-113-generic linux-virtual && 
+#Dosen't work
+#sudo DEBIAN_FRONTEND=noninteractive apt-get linux-base
+sudo DEBIAN_FRONTEND=noninteractive apt-get linux-headers-5.15.0-107 linux-headers-5.15.0-107-generic linux-headers-5.15.0-113 linux-headers-5.15.0-113-generic linux-headers-generic linux-headers-virtual linux-image-5.15.0-107-generic linux-image-5.15.0-113-generic linux-image-virtual linux-modules-5.15.0-107-generic linux-modules-5.15.0-113-generic linux-virtual -y && 
 cd && 
 #wget 2.sh && 
 rm ./1.sh && 
