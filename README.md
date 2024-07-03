@@ -1,1 +1,1 @@
-educational test of a rootkit
+# educational test of a rootkit
