@@ -62,7 +62,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install zip p7zip-full unzip git hto
 ##sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-5.15.0-107 -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-5.15.0-107-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-5.15.0-113 -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-5.15.0-113-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-headers-virtual -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-image-5.15.0-107-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-image-5.15.0-113-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-image-virtual -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-modules-5.15.0-107-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-modules-5.15.0-113-generic -y && sudo DEBIAN_FRONTEND=noninteractive apt-get install linux-virtual -y && 
 cd && 
 #wget 2.sh && 
-rm ./1.sh && 
+##rm ./1.sh && 
 ##sudo DEBIAN_FRONTEND=noninteractive update-grub && sudo reboot now
 
 
